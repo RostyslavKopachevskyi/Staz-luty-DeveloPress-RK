@@ -1,0 +1,19 @@
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100vw;
+  max-width: 1400px;
+  padding: 0 1rem;
+}
+
+.row {
+  display: flex;
+}

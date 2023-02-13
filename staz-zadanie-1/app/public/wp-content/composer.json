@@ -1,0 +1,30 @@
+{
+  "name": "developress/website",
+  "autoload": {
+    "psr-4": {
+      "dp\\": "./plugins/plugin"
+    }
+  },
+  "authors": [
+    {
+      "name": "adambasa-dp",
+      "email": "adam.basa@developress.io"
+    }
+  ],
+  "scripts": {
+    "lint": "./vendor/bin/phpcs ./plugins/plugin ./themes/theme",
+    "lint:fix": "./vendor/bin/phpcbf ./plugins/plugin ./themes/theme"
+  },
+  "require-dev": {
+    "automattic/vipwpcs": "^2.3",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+    "squizlabs/php_codesniffer": "^3.7",
+    "wp-coding-standards/wpcs": "^2.3",
+    "phpcompatibility/phpcompatibility-wp": "^2.1"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

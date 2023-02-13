@@ -1,0 +1,26 @@
+<svg id="block-logo-min" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.003" height="24.003" viewBox="0 0 24.003 24.003">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_28" data-name="Rectangle 28" width="24.003" height="24.003" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_116" data-name="Path 116" d="M25.743,21.15h.635a.954.954,0,0,1,1.047,1.028,1.009,1.009,0,0,1-1.054,1.034h-.628Zm-3.465,1.006a3.878,3.878,0,0,1,.465-1.847l1.677.8v2.223l-1.571.854a3.879,3.879,0,0,1-.571-2.031m1.262-2.871-1.116-.532a5.067,5.067,0,1,1,5.659,8.1v.107l.01.779H21.843V26.178l.681-.37.091-.049,1.086-.592,1.478-.8h1.2A2.192,2.192,0,1,0,26.371,20H25.035Zm-2.3-1.1a6.333,6.333,0,0,0-.7,1.071l1.056.5a5.159,5.159,0,0,0,.136,5.03l-1.028.558-.133.073v3.7l8.8-.119-.015-1.372A6.336,6.336,0,0,0,26.2,15.82H26.18a6.328,6.328,0,0,0-4.938,2.371" transform="translate(-20.544 -15.82)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.193" y1="1.194" x2="-0.175" y2="1.194" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.281" stop-color="#00ffd4"/>
+      <stop offset="0.694" stop-color="#00cfe9"/>
+      <stop offset="1" stop-color="#009eff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_212" data-name="Group 212">
+    <g id="Group_211" data-name="Group 211" clip-path="url(#clip-path)">
+      <path id="Path_115" data-name="Path 115" d="M24,12A12,12,0,1,1,12,0,12,12,0,0,1,24,12" transform="translate(0.001)"/>
+    </g>
+  </g>
+  <g id="Group_214" data-name="Group 214" transform="translate(6.399 4.927)">
+    <g id="Group_213" data-name="Group 213" clip-path="url(#clip-path-2)">
+      <rect id="Rectangle_29" data-name="Rectangle 29" width="17.885" height="17.885" transform="translate(-6.654 6.654) rotate(-45)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+/**
+Safari hacks
+ */
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    * {
+      appearance: none;
+      -webkit-overflow-scrolling: touch;
+      backface-visibility: hidden;
+    }
+
+    a[href^="tel"] {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}

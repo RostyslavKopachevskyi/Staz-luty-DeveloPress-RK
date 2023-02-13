@@ -1,0 +1,58 @@
+.color {
+  width: 10rem;
+  height: 5rem;
+  margin-right: 1rem;
+
+  &--blue {
+    background-color: var(--blue);
+  }
+
+  &--while {
+    background-color: var(--white);
+  }
+
+  &--black {
+    background-color: var(--black);
+  }
+
+  &--grey {
+    background-color: var(--grey);
+  }
+
+  &--purple {
+    background-color: var(--purple);
+  }
+
+  &--orange {
+    background-color: var(--orange);
+  }
+
+  &--yellow {
+    background-color: var(--yellow);
+  }
+}
+
+.example {
+  h1,
+  p {
+    width: 50%;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid var(--black);
+    padding: 0 1rem;
+    align-items: center;
+  }
+
+  &__colors {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__color {
+    display: flex;
+  }
+}

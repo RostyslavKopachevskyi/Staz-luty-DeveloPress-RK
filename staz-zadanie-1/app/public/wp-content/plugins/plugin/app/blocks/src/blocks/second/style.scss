@@ -1,0 +1,10 @@
+.wp-block-dp-second {
+  background: #a61bd7;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+
+  &.is-style-squared {
+    border-radius: 0;
+  }
+}

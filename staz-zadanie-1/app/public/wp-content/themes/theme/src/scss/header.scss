@@ -1,0 +1,22 @@
+.header {
+}
+
+@include min-size(md) {
+	.header {
+	}
+}
+
+@include min-size(lg) {
+	.header {
+	}
+}
+
+@include min-size(xl) {
+	.header {
+	}
+}
+
+@include min-size(xxl) {
+	.header {
+	}
+}

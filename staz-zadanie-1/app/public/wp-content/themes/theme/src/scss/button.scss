@@ -1,0 +1,65 @@
+button,
+.button {
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--grey);
+  }
+
+  &:active {
+    scale: 1.1;
+  }
+}
+
+a,
+.a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: var(--blue);
+  }
+}
+
+@include min-size(md) {
+  button,
+  .button {
+  }
+
+  a,
+  .a{
+  }
+}
+
+@include min-size(lg) {
+  button,
+  .button {
+  }
+
+  a,
+  .a{
+  }
+}
+
+@include min-size(xl) {
+  button,
+  .button {
+  }
+
+  a,
+  .a{
+  }
+}
+
+@include min-size(xxl) {
+  button,
+  .button {
+  }
+
+  a,
+  .a{
+  }
+}

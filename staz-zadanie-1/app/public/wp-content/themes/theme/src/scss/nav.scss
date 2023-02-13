@@ -1,0 +1,30 @@
+.nav {
+}
+
+@include min-size(md) {
+  .nav {
+  }
+}
+
+@include min-size(lg) {
+  .nav {
+    &__mobile-menu,
+    &__mobile-container {
+      display: none;
+    }
+
+    &__main-menu {
+      display: initial;
+    }
+  }
+}
+
+@include min-size(xl) {
+  .nav {
+  }
+}
+
+@include min-size(xxl) {
+  .nav {
+  }
+}

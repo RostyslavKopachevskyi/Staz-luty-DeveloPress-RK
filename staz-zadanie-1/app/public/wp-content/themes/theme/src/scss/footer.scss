@@ -1,0 +1,22 @@
+.footer {
+}
+
+@include min-size(md) {
+  .footer {
+  }
+}
+
+@include min-size(lg) {
+  .footer {
+  }
+}
+
+@include min-size(xl) {
+  .footer {
+  }
+}
+
+@include min-size(xxl) {
+  .footer {
+  }
+}

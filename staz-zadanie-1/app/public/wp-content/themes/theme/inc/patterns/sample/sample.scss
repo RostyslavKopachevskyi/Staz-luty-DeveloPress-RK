@@ -1,0 +1,52 @@
+@import "../../../src/scss/for-blocks";
+
+.sample {
+  &__container {
+    display: flex;
+  }
+
+  &__text {
+    width: 100%;
+    z-index: 2;
+  }
+
+  &__image {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 150%;
+
+    &-container {
+      height: 65rem;
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+}
+
+@include min-size(md) {
+  .sample {
+  }
+}
+
+@include min-size(lg) {
+  .sample {
+    &__container {
+      flex-direction: row;
+      gap: 5rem;
+    }
+
+    &__text {
+      width: 50%;
+    }
+
+    &__image-container {
+      width: 50%;
+    }
+  }
+}
+
+@include min-size(xl) {
+  .sample {
+  }
+}

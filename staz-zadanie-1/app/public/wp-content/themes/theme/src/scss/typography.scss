@@ -1,0 +1,105 @@
+h1,
+.h1 {
+  font-family: var(--font-monospace);
+  font-weight: bold;
+}
+
+h2,
+.h2 {
+  font-family: var(--font-monospace);
+  font-weight: bold;
+
+  &__link {
+    text-decoration: none;
+    margin-right: 2rem;
+    position: relative;
+    display: block;
+
+    &:hover {
+    }
+  }
+}
+
+h3,
+.h3 {
+  font-family: var(--font-monospace);
+  font-weight: bold;
+}
+
+h4,
+.h4 {
+  font-family: var(--font-monospace);
+  font-weight: bold;
+}
+
+h5,
+.h5 {
+  font-family: var(--font-monospace);
+  font-weight: bold;
+}
+
+h6,
+.h6 {
+  font-family: var(--font-monospace);
+  font-weight: bold;
+}
+
+sub,
+.sub {
+}
+
+sup,
+.sup {
+}
+
+small,
+.small {
+}
+
+strong,
+.strong {
+}
+
+s,
+.s {
+}
+
+u,
+.u {
+}
+
+blockquote,
+.blockquote {
+}
+
+code,
+.code {
+}
+
+ul,
+.ul {
+}
+
+ol,
+.ol {
+}
+
+li,
+.li {
+}
+
+table,
+.table {
+}
+
+tr,
+.tr {
+}
+
+th,
+.th {
+}
+
+td,
+.td {
+}

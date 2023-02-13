@@ -1,0 +1,1 @@
+import './simple-text.scss';
